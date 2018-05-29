@@ -1,0 +1,38 @@
+.main-banner {
+	text-align: center;
+	height: 100vh;
+	min-height: 100vh;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	background-size: cover;
+	background-image: url("http://placehold.it/1400x750");
+	position: relative;
+	top: 0;
+	left: 0;
+	.banner-content {
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		h2 {
+			margin-top: 0px;
+			margin-bottom: 20px;
+			font-size: 84px;
+			font-family: @primary-font;
+			text-transform: capitalize;
+			color: @white;
+			padding: 0 10%;
+		}
+		p {
+			margin-top: 0px;
+			padding: 0 33%;
+			color: @white;
+		}
+		.white-button {
+			margin-top: 30px;
+		}
+	}
+}

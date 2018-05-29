@@ -1,0 +1,200 @@
+section.contact-us {
+	background-image: url("http://placehold.it/1400x850");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	.section-heading {
+		text-align: center;
+		margin-bottom: 50px;
+		h1 {
+			color: @white;
+		}
+		p {
+			color: @white;
+			margin-top: 15px;
+			margin-left: 60px;
+			margin-right: 60px;
+		}
+	}
+	#contact {
+		padding-bottom: 140px;
+	}
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: @white;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: @white;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: @white;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: @white;
+	}
+	input:focus {
+		border-width: 0px;
+        outline:0; /* I have also tried outline:none */
+        -webkit-appearance:none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+	}
+	input {
+		margin-bottom: 30px;
+		-webkit-appearance:none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+		padding-left: 20px;
+		border: none;
+		overflow: hidden;
+		background-color: rgba(250,250,250,0.25);
+		height: 44px;
+		width: 100%;
+		border-radius: 22px;
+		display: inline-block;
+		font-family: @secondary-font;
+		font-size: 14px;
+		line-height: 44px;
+		color: @white;
+	}
+	textarea:focus {
+		border-width: 0px;
+        outline:0; /* I have also tried outline:none */
+        -webkit-appearance:none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+	}
+	textarea {
+		margin: 0px!important;
+		-webkit-appearance:none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+		padding-left: 20px;
+		padding-top: 15px;
+		border: none;
+		overflow: hidden;
+		background-color: rgba(250,250,250,0.25);
+		height: 180px;
+		min-height: 180px;
+		max-height: 300px;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		border-radius: 22px;
+		display: inline-block;
+		font-family: @secondary-font;
+		font-size: 14px;
+		color: @white;
+	}
+	.white-button {
+		margin-top: 20px;
+		border: none;
+	}
+	#map {
+		iframe {
+			border: none;
+			width: 100%;
+			height: 330px;
+		}
+	}
+}
+
+.contact-info {
+	.info-item {
+		margin-top: -114px;
+		width: 100%;
+		text-align: center;
+		box-shadow: 0px 5px 25px rgba(0,0,0,0.3);
+		border-radius: 10px;
+		.icon {
+			background: @gradient-bg;
+			padding: 20px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			i {
+				width: 74px;
+				height: 74px;
+				line-height: 70px;
+				text-align: center;
+				display: inline-block;
+				border: 2px solid @white;
+				border-radius: 50%;
+				color: @white;
+				font-size: 25px;
+			}
+		}
+		.down-content {
+			background-color: @white;
+			padding: 25px 0px 17px 0px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			h6 {
+				margin-top: 0px;
+				margin-bottom: 15px;
+				font-family: @secondary-font;
+				font-size: 15px;
+				font-weight: 700;
+				color: @heading;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				li {
+					margin: 3px 0px;
+					a {
+						font-weight: 500;
+						font-family: @secondary-font;
+						font-size: 13px;
+						color: @text-light;
+						transition: all 0.5s;
+					}
+					a:hover {
+						color: #646bb1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 992px) {
+
+	section.contact-us {
+
+		#contact {
+			padding-bottom: 60px;
+		}
+
+		#map {
+			margin-bottom: 100px;
+		}
+
+	}
+
+}
+
+
+@media (max-width: 767px) {
+
+	.contact-info {
+		.info-item {
+			margin-bottom: 150px;
+		}
+	}
+
+}
+
+
+@media (max-width: 767px) {
+
+	footer {
+		margin-top: -80px;
+	}
+
+}

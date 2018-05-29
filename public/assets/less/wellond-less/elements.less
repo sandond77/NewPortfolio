@@ -1,0 +1,138 @@
+.back-to-top {
+	position: fixed;
+	z-index: 99999;
+	right: 15px;
+	bottom: 15px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 1s;
+	i {
+		width: 60px;
+		height: 60px;
+		display: inline-block;
+		text-align: center;
+		line-height: 60px;
+		background: @gradient-bg;
+		color: @white;
+		font-size: 22px;
+		border-radius: 50%;
+	}
+}
+
+
+.back-to-top-visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: @gradient-bg; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    z-index:99999999; /* makes sure it stays on top */
+}
+
+#status {
+    width:50px;
+    height:30px;
+    position:fixed;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+   margin:-25px 0 0 -15px; /* is width and height divided by two */
+}
+
+.spinner {
+  margin: 0px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+ul.page {
+  padding: 0;
+  margin-top: 30px;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid @border-color;
+      display: inline-block;
+      line-height: 38px;
+      text-align: center;
+      transition: all 0.5s;
+      font-size: 14px;
+      color: @heading;
+    }
+    a:hover {
+      color: @white;
+      background: @heading;
+    }
+  }
+  li.active {
+    a {
+      line-height: 40px;
+      border: none;
+      background: @gradient-bg;
+      color: @white;
+    }
+  }
+}

@@ -1,0 +1,152 @@
+.white-button {
+	position: relative;
+	display: inline-block;
+	background: @white;
+	border-radius: 20px;
+}
+
+
+.white-button a {
+	display: inline-block;
+	font-size: 12px;
+	font-family: @secondary-font;
+	font-weight: 700;
+	color: @heading;
+	text-transform: uppercase;
+	padding: 12px 17px;
+	letter-spacing: 0.5px;
+	z-index: 9;
+	position: relative;
+}
+
+.white-button a:hover {
+	color: @white;
+}
+
+.white-button .ease-in {
+	position: absolute;
+	display: inline-block;
+	background: rgba(0,0,0,0.95);
+	width: 0%;
+	opacity: 0;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 20px;
+	left: 0;
+	top: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+	z-index: 8;
+}
+
+.white-button:hover .ease-in {
+	width: 100%;
+	opacity: 1;
+}
+
+
+
+.gradient-button {
+	position: relative;
+	display: inline-block;
+	background: @gradient-button-bg;
+	border-radius: 20px;
+}
+
+
+.gradient-button a {
+	display: inline-block;
+	font-size: 12px;
+	font-family: @secondary-font;
+	font-weight: 700;
+	color: @white;
+	text-transform: uppercase;
+	padding: 12px 17px;
+	letter-spacing: 0.5px;
+	z-index: 9;
+	position: relative;
+}
+
+.gradient-button .ease-in {
+	position: absolute;
+	display: inline-block;
+	background: rgba(100, 107, 177, 0.75);
+	width: 0%;
+	opacity: 0;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 20px;
+	left: 0;
+	top: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+	z-index: 8;
+}
+
+.gradient-button:hover .ease-in {
+	width: 100%;
+	opacity: 1;
+}
+
+
+
+
+
+
+button {
+	position: relative;
+	display: inline-block;
+	background: @white;
+	border-radius: 20px;
+	outline: none;
+}
+
+
+button span {
+	outline: none;
+	display: inline-block;
+	font-size: 12px;
+	font-family: @secondary-font;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 12px 17px;
+	letter-spacing: 0.5px;
+	position: relative;
+	z-index: 9;
+}
+
+button:hover {
+	span {
+		color: @white;
+	}
+}
+
+.white-button .ease-in {
+	position: absolute;
+	display: inline-block;
+	background: rgba(0,0,0,0.95);
+	width: 0%;
+	opacity: 0;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 20px;
+	left: 0;
+	top: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+	z-index: 8;
+}
+
+.white-button:hover .ease-in {
+	width: 100%;
+	opacity: 1;
+}

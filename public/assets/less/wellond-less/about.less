@@ -1,0 +1,297 @@
+section.we-are-creative {
+	p {
+		margin-top: 20px;
+		margin-bottom: 25px;
+		em {
+			font-style: normal;
+			font-weight: 600;
+			color: @heading;
+		}
+	}
+	.creative-image {
+		img {
+			width: 100%;
+			overflow: hidden;
+		}
+	}
+	.owl-carousel {
+		margin-top: 45px;
+		.item {
+			text-align: center;
+			img {
+				width: 20px;
+				display: inline-block;
+			}
+			p {
+				font-size: 15px;
+				font-style: italic;
+				color: @heading;
+				line-height: 28px;
+			}
+			h4 {
+				margin-top: 30px;
+				font-family: @primary-font;
+				font-size: 22px;
+				color: @heading;
+			}
+		}
+	}
+}
+
+@media (max-width: 764px) {
+
+	section.we-are-creative {
+		.section-heading {
+			margin-bottom: 60px;
+			text-align: center;
+		}
+	}
+
+}
+
+
+section.our-team {
+	text-align: center;
+	margin-bottom: 32px;
+	.section-heading {
+		margin-top: 30px;
+		margin-bottom: 50px;
+		p {
+			margin-top: 15px;
+			margin-left: 60px;
+			margin-right: 60px;
+			color: @heading;
+		}
+	}
+	.team-member {
+		margin-bottom: 18px;
+		text-align: center;
+		img {
+			width: 100%;
+			overflow: hidden;
+		}
+		.text-content {
+			position: relative;
+			padding: 30px 20px 32px 20px;
+			box-shadow: 0px 5px 25px #cdcdcd;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			h4 {
+				font-family: @secondary-font;
+				font-size: 17px;
+				text-transform: capitalize;
+				letter-spacing: 0.5px;
+				margin-top: 0px;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+			span {
+				font-family: @secondary-font;
+				font-size: 13px;
+				color: @text-light;
+				margin-bottom: 23px;
+				display: inline-block;
+			}
+			ul {
+				padding: 0;
+				margin-bottom: -53px;
+				list-style: none;
+				li {
+					margin: 3px;
+					position: relative;
+					display: inline-block;
+					background: @gradient-button-bg;
+					border-radius: 50%;
+					i {
+						display: inline-block;
+						font-size: 16px;
+						color: @white;
+						width: 34px;
+						height: 34px;
+						line-height: 34px;
+						text-align: center;
+						z-index: 9;
+						position: relative;
+					}
+					.ease-in {
+						position: absolute;
+						display: inline-block;
+						background: rgba(100, 107, 177, 0.75);
+						width: 0px;
+						opacity: 0;
+						height: 34px;
+						overflow: hidden;
+						border-radius: 50%;
+						left: 0;
+						top: 0;
+						-webkit-transition: all 0.3s;
+						-moz-transition: all 0.3s;
+						-o-transition: all 0.3s;
+						-ms-transition: all 0.3s;
+						transition: all 0.3s;
+						z-index: 8;
+					}
+				}
+				li:hover {
+					.ease-in {
+						width: 34px;
+						opacity: 0.7;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 992px) {
+	section.our-team {
+		.team-member {
+			margin-bottom: 45px;
+		}
+	}
+}
+
+
+
+section.pricing-tables {
+	background-image: url("http://placehold.it/1400x750");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	.container	{
+		padding: 28px 0px;
+		.left-content {	
+			margin-top: 60px;
+			.section-heading {
+				h1 {
+					line-height: 20px;
+				}
+				p {
+					margin-top: 35px;
+					margin-bottom: 0px;
+					em {
+						font-style: normal;
+						font-weight: 600;
+						color: @heading;
+					}
+				}
+			}
+		}
+		.pricing-items {
+			.col-md-6 {
+				padding-right: 0px;
+				padding-left: 0px;
+			}
+			.first-item {
+				border-top-left-radius: 10px;
+				border-bottom-left-radius: 10px;
+				padding: 40px 20px;
+				background: @gradient-bg;
+				text-align: center;
+				color: @white;
+				h2 {
+					margin-top: 0px;
+					font-family: @primary-font;
+					font-family: 36px;
+					margin-bottom: 0px;
+				}
+				span {
+					font-family: @secondary-font;
+					font-size: 13px;
+					font-weight: 300;
+				}
+				h4 {
+					font-family: @primary-font;
+					font-size: 24px;
+					margin: 20px 0px 25px 0px;
+				}
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+					li {
+						margin: 12.5px 0px;
+						font-family: @secondary-font;
+						font-size: 13px;
+						font-weight: 600;
+						a {
+							color: @white;
+						}
+					}
+					li:last-child {
+						margin-bottom: 2.5px;
+					}
+				}
+				.white-button {
+					margin-top: 30px;
+				}
+			}
+			.second-item {
+				border-top-right-radius: 10px;
+				border-bottom-right-radius: 10px;
+				padding: 40px 20px;
+				background: @white;
+				text-align: center;
+				color: @heading;
+				h2 {
+					margin-top: 0px;
+					font-family: @primary-font;
+					font-family: 36px;
+					margin-bottom: 0px;
+				}
+				span {
+					font-family: @secondary-font;
+					font-size: 13px;
+					font-weight: 300;
+				}
+				h4 {
+					font-family: @primary-font;
+					font-size: 24px;
+					margin: 20px 0px 25px 0px;
+				}
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+					li {
+						margin: 12.5px 0px;
+						font-family: @secondary-font;
+						font-size: 13px;
+						font-weight: 600;
+						a {
+							color: @heading;
+						}
+					}
+					li:last-child {
+						margin-bottom: 2.5px;
+					}
+				}
+				.gradient-button {
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	section.pricing-tables {
+		background-image: none;
+		background-color: @bg-light;
+		.left-content {
+			margin-bottom: 45px;
+		}
+		.pricing-items {
+			.first-item {
+				border-radius: 0px!important;
+			}
+			.second-item {
+				border-radius: 0px!important;
+			}
+		}
+	}
+}

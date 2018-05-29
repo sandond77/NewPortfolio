@@ -1,0 +1,138 @@
+section.services-images {
+	margin-top: -170px;
+	.service-image-item {
+		text-align: center;
+		img {
+			width: 100%;
+			overflow: hidden;
+		}
+		.text-content {
+			position: relative;
+			padding: 30px 30px 32px 30px;
+			box-shadow: 0px 5px 25px #cdcdcd;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			h4 {
+				font-family: @secondary-font;
+				font-size: 19px;
+				text-transform: capitalize;
+				letter-spacing: 0.5px;
+				margin-top: 0px;
+				font-weight: 700;
+				margin-bottom: 15px;
+			}
+			p {
+				margin-bottom: 23px;
+			}
+			.gradient-button {
+				margin-bottom: -53px;
+			}
+		}
+	}
+}
+
+section.services-images .service-image-item .text-content {
+	border: 1px solid @border-color;
+	border-radius: 0px;
+	padding-bottom: 45px;
+}
+
+section.services-icon {
+	background-image: url("http://placehold.it/1400x750");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	.container	{
+		padding: 28px 0px;
+		.services {
+			background: @gradient-bg;
+			border-radius: 10px;
+			padding: 30px 20px;
+			.col-md-6 {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			ul.first-column {
+				border-right: 1px solid rgba(250,250,250,0.3);
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				text-align: center;
+				li {
+					display: block;
+					margin-bottom: 30px;
+					.icon {
+						width: 100px;
+						height: 100px;
+						display: inline-block;
+						text-align: center;
+						background-color: rgba(250,250,250,0.2);
+						border-radius: 50%;
+						line-height: 100px;
+						img {
+							max-width: 100%;
+							overflow: hidden;
+						}
+					}
+					h6 {
+						font-family: @secondary-font;
+						font-size: 14px;
+						font-weight: 600;
+						color: @white;
+					}
+				}
+				li:last-child {
+					margin-bottom: 0px;
+				}
+			}
+		}
+		.right-content {
+			p {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				em {
+					font-style: normal;
+					font-weight: 600;
+					color: @heading;
+				}
+			}
+			ul {
+				padding: 0;
+				margin-left: 15px;
+				li {
+					margin-bottom: 15px;
+					a {
+						font-family: @secondary-font;
+						font-size: 13px;
+						font-weight: 600;
+						color: @heading;
+						transition: all 0.3s;
+					}
+					a:hover {
+						color: #646bb1;
+					}
+				}
+				li:last-child {
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 767px) {
+
+	section.services-icon {
+		background-image: none;
+		background-color: @bg-light;
+		.right-content {
+			margin-top: 60px;
+		}
+	}
+
+}
