@@ -915,7 +915,7 @@ section.blog-entries .leave-comment #contact .gradient-button {
 }
 
 section.contact-us {
-    background-image: url("http://placehold.it/1400x850");
+    background-image: url("../images/backgrounds/contact.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1592,7 +1592,7 @@ section.home-portfolio .images .text-content .gradient-button {
     background-attachment: fixed;
     width: 100%;
     background-size: cover;
-    background-image: url("http://placehold.it/1400x750");
+    background-image: url("../images/backgrounds/sakura1.JPG");
     position: relative;
     top: 0;
     left: 0
