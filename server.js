@@ -4,6 +4,7 @@ var app = express();
 var routes = require("./routes/routes.js");
 var PORT = process.env.PORT || 3000;
 
+app.set('view engine', 'html');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
