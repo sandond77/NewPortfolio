@@ -18,7 +18,7 @@ section {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 24px;
     color: #7a7a7a
 }
@@ -147,7 +147,7 @@ p {
 
 .menu-first li a {
     color: #fff!important;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     text-shadow: none;
     display: inline-block;
