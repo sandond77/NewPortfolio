@@ -3159,4 +3159,5 @@ Copyright (c) 2014 Daniel Eden
 
 .transition:focus {
   background-color: white;
+  color: black;
 }
