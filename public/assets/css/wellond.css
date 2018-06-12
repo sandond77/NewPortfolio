@@ -1125,7 +1125,11 @@ section.contact-us #map iframe {
 
 section.home-portfolio {
     text-align: center;
-    padding-bottom: 100px
+    background-image: url("../images/backgrounds/contact.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
 }
 
 section.home-portfolio .col-md-6 {
