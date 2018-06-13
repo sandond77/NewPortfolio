@@ -1229,7 +1229,7 @@ section.home-portfolio .images .text-content .gradient-button {
     opacity: 0;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
-    transition: all 0.5s
+    transition: all 0.5s;
 }
 
 .portfolio-page .item .thumb .hover-effect .hover-content {
@@ -1262,7 +1262,7 @@ section.home-portfolio .images .text-content .gradient-button {
 
 .portfolio-page .item .thumb:hover .hover-effect {
     visibility: visible;
-    opacity: 1
+    opacity: 1;
 }
 
 .portfolio-page .filters {
