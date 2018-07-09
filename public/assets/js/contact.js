@@ -12,8 +12,10 @@ $(document).ready(function(){
 	  	$.ajax({
 	  		method:"POST",
 	  		url: "/send",
+	  		data: info
 	  	}).then(function(response){
-	  		console.log("ajax sent")
+	  		console.log("response" + response)
+	  		// console.log("ajax sent")
 	  	})
 	})
 })
