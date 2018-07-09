@@ -14,8 +14,15 @@ $(document).ready(function(){
 	  		url: "/send",
 	  		data: info
 	  	}).then(function(response){
-	  		console.log("response" + response)
-	  		// console.log("ajax sent")
+	  		if (response === "posted") {
+	  			$('#name').val("")
+		  		$('#name').val("")
+		  		$('#subject').val("")
+		  		$('#message').val("")
+		  		alert("Your message was sent")
+	  		} else {
+	  			alert("There was an error sending your message. Please try again later");
+	  		}
 	  	})
 	})
 })

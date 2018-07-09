@@ -51,10 +51,10 @@ router.post("/send", function(req,res){
     transporter.sendMail(mailOptions, function(error, info){
         if (error) {
           console.log(error);
-          res.send("Error")
+          res.send("error")
         } else {
           console.log('Email sent: ' + info.response);
-          res.send("Posted");
+          res.send("posted");
         }
     });
 })
