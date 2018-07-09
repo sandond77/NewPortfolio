@@ -35,6 +35,7 @@ router.post("/send", function(req,res){
         <ul>  
           <li>Name: ${req.body.name}</li>
           <li>Email: ${req.body.email}</li>
+          <li>Subject: ${req.body.subject}</li>
         </ul>
         <h3>Message</h3>
         <p>${req.body.message}</p>
@@ -53,7 +54,6 @@ router.post("/send", function(req,res){
           console.log(error);
           res.send("error")
         } else {
-          console.log('Email sent: ' + info.response);
           res.send("posted");
         }
     });

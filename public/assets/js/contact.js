@@ -1,10 +1,9 @@
 $(document).ready(function(){
 	$('#submit-contact').click(function(event){
 	  	event.preventDefault();
-		console.log("js loaded")
 	  	var info = {
 	  		name: $('#name').val().trim(),
-	  		email: $('#name').val().trim(),
+	  		email: $('#email').val().trim(),
 	  		subject: $('#subject').val().trim(),
 	  		message: $('#message').val().trim()
 	  	}
@@ -16,7 +15,7 @@ $(document).ready(function(){
 	  	}).then(function(response){
 	  		if (response === "posted") {
 	  			$('#name').val("")
-		  		$('#name').val("")
+		  		$('#email').val("")
 		  		$('#subject').val("")
 		  		$('#message').val("")
 		  		alert("Your message was sent")
