@@ -48,16 +48,16 @@ router.post("/send", function(req,res){
         html: output
     };
 
-    transporter.sendMail(mailOptions, function(error, info){
-        if (error) {
-          console.log(error);
-        } else {
-          console.log('Email sent: ' + info.response);
-          $('#contact').reset();
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info){
+    //     if (error) {
+    //       console.log(error);
+    //     } else {
+    //       console.log('Email sent: ' + info.response);
+    //       $('#contact').reset();
+    //     }
+    // });
 
-    // res.send("Complete");
+    res.send("Complete");
 })
 
 router.get("*", function(req, res, next){
