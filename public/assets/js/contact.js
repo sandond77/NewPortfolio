@@ -18,7 +18,8 @@ $(document).ready(function(){
 		  		$('#email').val("")
 		  		$('#subject').val("")
 		  		$('#message').val("")
-		  		alert("Your message was sent")
+				  // alert("Your message was sent")
+				$('#messageModal').modal('show');
 	  		} else {
 	  			alert("There was an error sending your message. Please try again later");
 	  		}
