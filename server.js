@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var nodemailer = require('nodemailer');
 var app = express();
 var routes = require("./routes/routes.js");
 var PORT = process.env.PORT || 3000;
