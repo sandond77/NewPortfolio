@@ -2547,3 +2547,9 @@ html[xmlns] .flexslider .slides {
 textarea {
     resize: none; 
 }
+
+.section-heading h4{
+    font-family: 'blenda_scriptregular', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #232323;
