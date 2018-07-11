@@ -8,8 +8,8 @@ $(document).ready(function(){
 	  		message: $('#message').val().trim()
 	  	}
 
-	  	// $('#messageModal').modal('show');
-	  	$('#successful').alert();
+	  	$('#messageModal').modal('show');
+	  	// $('#successful').show();
 
 	  	// $.ajax({
 	  	// 	method:"POST",
