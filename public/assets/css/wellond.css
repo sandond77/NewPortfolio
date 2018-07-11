@@ -2543,3 +2543,7 @@ html[xmlns] .flexslider .slides {
     border-width: 0.5px:
     border-color: black;
 }
+
+textarea {
+    resize: none; 
+}
