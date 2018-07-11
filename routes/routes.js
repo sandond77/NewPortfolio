@@ -54,7 +54,7 @@ router.post("/send", function(req,res){
           console.log(error);
           res.send("error")
         } else {
-          res.send("posted");
+          res.send("sent");
         }
     });
 })
