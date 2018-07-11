@@ -8,9 +8,10 @@ $(document).ready(function(){
 	  		message: $('#message').val().trim()
 	  	}
 
-	  	$('#messageModal').modal('show');
-	  	// $('#successful').show();
-
+	  	// $('#messageModal').modal('show');
+	  	var successful = '<div class="alert alert-success alert-dismissible collapse" id="successful" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><p>Your message was successfully sent!</p></div>'
+	  	$('#append').append(successful);
+	  	$('#successful').show();
 	  	// $.ajax({
 	  	// 	method:"POST",
 	  	// 	url: "/send",
