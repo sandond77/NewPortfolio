@@ -8,21 +8,24 @@ $(document).ready(function(){
 	  		message: $('#message').val().trim()
 	  	}
 
-	  	$.ajax({
-	  		method:"POST",
-	  		url: "/send",
-	  		data: info
-	  	}).then(function(response){
-	  		if (response === "posted") {
-	  			$('#name').val("")
-		  		$('#email').val("")
-		  		$('#subject').val("")
-		  		$('#message').val("")
-				  // alert("Your message was sent")
-				$('#messageModal').modal('show');
-	  		} else {
-	  			alert("There was an error sending your message. Please try again later");
-	  		}
-	  	})
+	  	// $('#messageModal').modal('show');
+	  	$('#successful').alert();
+
+	  	// $.ajax({
+	  	// 	method:"POST",
+	  	// 	url: "/send",
+	  	// 	data: info
+	  	// }).then(function(response){
+	  	// 	if (response === "posted") {
+	  	// 		$('#name').val("")
+		  // 		$('#email').val("")
+		  // 		$('#subject').val("")
+		  // 		$('#message').val("")
+				//   alert("Your message was sent")
+				// $('#messageModal').modal('show');
+	  	// 	} else {
+	  	// 		alert("There was an error sending your message. Please try again later");
+	  	// 	}
+	  	// })
 	})
 })
