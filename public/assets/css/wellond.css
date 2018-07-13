@@ -355,7 +355,7 @@ section.our-team .team-member .text-content ul li:hover .ease-in {
 }
 
 section.pricing-tables {
-    background-image: url("http://placehold.it/1400x750");
+    background-image: url("https://placehold.it/1400x750");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -916,7 +916,7 @@ section.blog-entries .leave-comment #contact .gradient-button {
 
 section.contact-us {
     /*background-image: url("../images/backgrounds/tsubasa.jpg");*/
-    background-image: url("http://farm1.staticflickr.com/842/43290838561_634b8250d7_b.jpg");
+    background-image: url("https://farm1.staticflickr.com/842/43290838561_634b8250d7_b.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1127,7 +1127,7 @@ section.contact-us #map iframe {
 section.home-portfolio {
     text-align: center;
     /*background-image: url("../images/backgrounds/contact.png");*/
-    background-image: url("http://farm2.staticflickr.com/1788/42387255555_9b6ecdcf6e_b.jpg");
+    background-image: url("https://farm2.staticflickr.com/1788/42387255555_9b6ecdcf6e_b.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1563,7 +1563,7 @@ section.home-portfolio .images .text-content .gradient-button {
     width: 100%;
     background-size: cover;
     /*background-image: url("../images/backgrounds/sakura1.png");*/
-    background-image: url("http://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg");
+    background-image: url("https://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg");
     padding: 100px 0px 0px 0px
 }
 
@@ -1599,8 +1599,8 @@ section.home-portfolio .images .text-content .gradient-button {
     background-attachment: fixed;
     width: 100%;
     background-size: cover;
-    /* background-image: url("http://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg"); */
-    background-image: url("http://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg");
+    /* background-image: url("https://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg"); */
+    background-image: url("https://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg");
     position: relative;
     top: 0;
     left: 0
@@ -1684,7 +1684,7 @@ section.services-images .service-image-item .text-content {
 }
 
 section.services-icon {
-    background-image: url("http://placehold.it/1400x750");
+    background-image: url("https://placehold.it/1400x750");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
