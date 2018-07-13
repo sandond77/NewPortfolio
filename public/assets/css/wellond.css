@@ -2539,11 +2539,11 @@ html[xmlns] .flexslider .slides {
     }
 }
 
-.item{
+/* .item{
     border-style: solid;
     border-width: 0.5px:
     border-color: black;
-}
+} */
 
 textarea {
     resize: none; 
