@@ -1599,7 +1599,8 @@ section.home-portfolio .images .text-content .gradient-button {
     background-attachment: fixed;
     width: 100%;
     background-size: cover;
-    background-image: url("http://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg");
+    /* background-image: url("http://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg"); */
+    background-image: url("http://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg");
     position: relative;
     top: 0;
     left: 0
