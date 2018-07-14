@@ -1160,7 +1160,8 @@ section.home-portfolio .images .text-content {
     margin: 12.5% 32%;
     padding: 30px 30px 30px 30px;
     background-color: rgba(250, 250, 250, 0.95);
-    position: absolute
+    position: absolute;
+    top:70px;
 }
 
 section.home-portfolio .images .text-content h4 {
@@ -2536,6 +2537,9 @@ html[xmlns] .flexslider .slides {
     .flex-direction-nav .flex-next {
         opacity: 1;
         right: 10px
+    }
+    section.home-portfolio .images .text-content {
+        top: 0px;
     }
 }
 
