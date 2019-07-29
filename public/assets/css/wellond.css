@@ -915,8 +915,8 @@ section.blog-entries .leave-comment #contact .gradient-button {
 }
 
 section.contact-us {
-    /* background-image: url("../images/backgrounds/tsubasa.jpg"); */
-    background-image: url("https://farm1.staticflickr.com/842/43290838561_634b8250d7_b.jpg");
+    background-image: url("../images/backgrounds/tsubasa.jpg");
+    /* background-image: url("https://farm1.staticflickr.com/842/43290838561_634b8250d7_b.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1563,8 +1563,8 @@ section.home-portfolio .images .text-content .gradient-button {
     background-attachment: fixed;
     width: 100%;
     background-size: cover;
-    /*background-image: url("../images/backgrounds/sakura1.png");*/
-    background-image: url("https://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg");
+    background-image: url("../images/backgrounds/sakura1.png");
+    /* background-image: url("https://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg"); */
     padding: 100px 0px 0px 0px
 }
 
@@ -1600,8 +1600,9 @@ section.home-portfolio .images .text-content .gradient-button {
     background-attachment: fixed;
     width: 100%;
     background-size: cover;
+    background-image: url("../images/backgrounds/sakura1.png");
     /* background-image: url("https://farm2.staticflickr.com/1805/28421689637_dfb892abf7_b.jpg"); */
-    background-image: url("https://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg");
+    /* background-image: url("https://farm1.staticflickr.com/844/43387386451_2b43112f29_b.jpg"); */
     position: relative;
     top: 50%;
     left: 50%
