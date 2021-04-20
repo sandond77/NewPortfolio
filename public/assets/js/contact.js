@@ -31,3 +31,6 @@ $(document).ready(function(){
 	  	})
 	})
 })
+
+
+//this is not funcitonal
